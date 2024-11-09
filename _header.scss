@@ -1,0 +1,199 @@
+#click {
+    display: none;
+}
+#hamburger{
+    display: none;
+    margin-right: 40px;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+    // position: fixed;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: -45px;
+  
+    }
+    .logo{
+        height: 80px;
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 70px;
+    }
+    nav ul {
+        display:flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        justify-content: space-between;
+        gap: 20px;
+
+        li{
+            list-style: none;
+            text-decoration: none;
+            gap:20px;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+
+            }
+            a:hover{
+                color: #f45d96;
+            }
+        }
+    }
+   
+    .icon 
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        margin-top: 30px;
+        // margin-left: 90px;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+
+        li {
+            
+            text-decoration:none;
+            list-style:none;
+            justify-content:space-between;
+        }
+    }
+    .reg{
+        margin-bottom: 50px;
+
+        a{
+            margin-bottom: 550px;
+            
+        }
+    }
+    
+}
+
+// ---------Tablet view -------------
+
+
+@media screen and (max-width: 768px) {
+    .header{
+
+        width:768px;
+    }
+    
+    .header .navbar{
+        padding-top: 10px;
+    }
+    .header .navbar .logo{
+        display:block;
+    }
+    .header .navbar nav ul  {
+      display:none;
+      
+      
+    }
+    .header .navbar .icon{
+        display:none;
+      }
+      .header .navbar .reg a{
+        display: none;
+      }
+
+    .header .navbar nav ul {
+        
+        flex-direction: column;
+        position: absolute;
+        top: 30px;
+        left:70%;
+        background:white;
+        color:black;
+        width: 30%;
+        text-align: left;
+        text-align: center;
+        // display: none;
+      }
+      
+
+      #hamburger{
+       display: block;
+      }
+
+      #click:checked ~ .header  .navbar nav ul {
+        display: block;
+      }
+      
+    // -------------------
+    
+    }
+
+    // ---------mobile view ---------------
+
+    @media screen and (max-width: 425px)
+    {
+        .header{
+            width:425px;
+        }
+        .header .navbar{
+            width:425px;
+            padding-top: 10px;
+        }
+        .header .navbar .logo{
+            display:block;
+        }
+        .header .navbar nav ul  {
+          display:none;
+          
+          
+        }
+        .header .navbar .icon{
+            display:none;
+          }
+          .header .navbar .reg a{
+            display: none;
+          }
+    
+        .header .navbar nav ul {
+            
+            flex-direction: column;
+            position: absolute;
+            top: 30px;
+            left:50%;
+            background:white;
+            color:black;
+            width: auto;
+            text-align: left;
+            text-align: center;
+            // display: none;
+          }
+          
+    
+          #hamburger{
+           display: block;
+          }
+    
+          #click:checked ~ .header .navbar nav ul {
+            display: block;
+          }
+        
+    }

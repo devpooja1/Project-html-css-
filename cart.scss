@@ -1,0 +1,211 @@
+@import "header";
+@import "footer";
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    .navbar{
+        padding-top: 15px;
+    }
+    .icon{
+        margin-right: 20px;
+    }
+
+}
+
+
+.about{
+    height: 400px;
+    .container{
+        background: url("images/image23.jpg") no-repeat center center/cover;
+        height: 350px;
+        .container-text{
+            position: relative;
+            top: 100px;
+            
+            
+        
+        h2{
+            text-align: center;
+            // margin-top: 100px;
+            letter-spacing: 1.5;
+            font-size: 50px;
+            margin-bottom: 10px;
+            a
+            {
+                list-style: none;
+                text-decoration: none;
+                color: black;
+    
+            :hover{
+                color: #f45d96;
+            }
+        }
+        }
+        
+        h3{ 
+            text-align: center;
+            letter-spacing: 2;
+            font-size: 20px;
+        
+            justify-content: center;
+           display: flex;
+            // align-self: start;
+            a
+            {
+            :hover{
+                    color: #f45d96;
+                }
+            }
+            }
+        }
+    }
+    }
+    // ------------------------
+
+    .cart {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .cart-items {
+        flex: 2;
+        margin-right: 20px;
+    }
+    
+    .sidebar {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #f9f9f9;
+        font-size: 32px;
+    }
+    
+    td img {
+        width: 160px;
+        height: 160px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    td span{
+        font-size: 25px;
+        color: #0a0408;
+    }
+    
+    td input[type="number"] {
+        width: 50px;
+        height: 20px;
+    }
+    
+    .coupon, .cart-total {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .coupon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+    
+    .coupon input {
+        padding: 20px;
+        width: calc(100% - 110px);
+        margin-right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .coupon button {
+        padding: 15px 25px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .cart-total {
+        
+       
+        // width: 400px;
+        height: 400px;
+        margin-top: 40px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        
+        
+        
+    }
+    
+    .cart-total p {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px ;
+        color: #333;
+        margin-top: 50px;
+    }
+    
+    .cart-total p span {
+        font-weight: bold;
+    
+    }
+    
+    .cart-total p:nth-child(2) span {
+        color: #f45d96;
+       
+    }
+    .cart-total h2{
+        // text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .cart-total button {
+     margin-left: 30px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        // width: 100%;
+        padding: 20px;
+        width: 300px;
+        font-size: 1.2em;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+.social-media{
+    margin-top: px;
+}

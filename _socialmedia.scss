@@ -1,0 +1,30 @@
+.social-media{
+    height: 200px;
+    // flex-wrap: wrap;
+    // margin-bottom: 50px;
+    .container
+    {
+        display:flex;
+        gap: 10px;
+        padding: 10px;
+        
+    }
+    
+}
+// -----------tablet view----------
+@media screen and (max-width:768px){
+    .social-media{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+// --------mobile view --------
+@media screen and (max-width:768px){
+    .social-media{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}

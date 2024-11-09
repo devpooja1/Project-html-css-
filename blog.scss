@@ -1,0 +1,200 @@
+@import "header";
+@import "footer";
+@import "primry-btn";
+@import "socialmedia";
+// @import "member";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ span{
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+h2{
+    font-size: 42px;
+    color: black;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+
+}
+h4{
+    color:#111111;
+    margin-bottom: 15px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+    
+}
+
+p{
+    font-size: 16px;
+    font-family:"Quicksand", sans-serif;
+    color: #444444;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+}
+
+.header{
+    .navbar{
+        padding-top: 15px;
+    }
+    .icon{
+        margin-right: 20px;
+    }
+
+}
+// -----------------------------
+.service{
+.container{
+    background: url("images/image23.jpg") no-repeat center center/cover;
+    height: 300px;
+    margin-bottom: 50px;
+    .container-text{
+        position: relative;
+        top: 100px;
+        
+        
+    
+    h2{
+        text-align: center;
+        // margin-top: 100px;
+        letter-spacing: 1.5;
+        font-size: 25px;
+        margin-bottom: 10px;
+        a
+        {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+
+        :hover{
+            color: #f45d96;
+        }
+    }
+    }
+    
+    h3{ 
+        text-align: center;
+        letter-spacing: 2;
+        font-size: 20px;
+    
+        justify-content: center;
+       display: flex;
+        // align-self: start;
+        a
+        {
+        :hover{
+                color: #f45d96;
+            }
+        }
+        }
+    }
+}
+}
+
+.latest{
+
+    margin: 50px;
+    display: flex;
+    gap: 100px;
+    .container{
+    text-align: center;
+   height: auto;
+
+
+    .row2{
+        width:auto;
+        display:flex;
+        flex-direction: row;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        // margin: 80px 20px;
+        // box-shadow: 2px solid rgb(7, 7, 7);
+        // border:1px solid #444444;
+
+        .r2-col1
+        {  
+            // margin-top: 30px;
+            // margin-bottom: 50px;
+            width:auto;
+            box-shadow: 0px 10px 21px rgba(99, 133, 136, 0.16);
+            z-index: 100px;
+            
+            // .col-img
+            // {
+                
+            // }
+            .label{
+                text-transform: uppercase;
+                
+                
+                span{
+                    color: #f45d96;
+                    background-color: black;
+                    align-items: center;
+                    position: relative;
+                    text-align: center;
+                    height: 30px;
+                    // top: -10px;
+                    margin: 0 60px;
+                   width: auto;
+                }
+
+            }
+            h4{
+                text-align: center;
+                margin-bottom: 10px;
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 18px;
+                    align-items: center;
+                    
+                    
+                }
+                :hover{
+                    text-decoration: underline;
+                    
+                }
+            }
+                
+            
+            p{
+                text-align: center;
+                opacity: 0.9;
+            }
+            span{
+                text-align: center;
+                position: relative;
+                top: 10px;
+               
+            }
+        }
+        
+
+    }
+    
+}
+}
+ .view-all {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    
+ }
+// ----------
